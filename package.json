@@ -5,7 +5,7 @@
     "type": "git",
     "url": "https://github.com/davidsonalencar/animate-delay.css.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "animate.css": "~3.2.5"
   },
   "spm": {
