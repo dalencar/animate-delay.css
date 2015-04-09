@@ -1,0 +1,14 @@
+{
+  "name": "animate-delay.css",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidsonalencar/animate-delay.css.git"
+  },
+  "devDependencies": {
+    "animate.css": "~3.2.5"
+  },
+  "spm": {
+    "main": "./animate-delay.css"
+  }
+}

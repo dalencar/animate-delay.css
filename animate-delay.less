@@ -1,0 +1,30 @@
+
+.animate-delay(@t) {
+    animation-delay: @t;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    moz-animation-delay: @t;
+    moz-animation-fill-mode: both;
+    moz-animation-timing-function: ease;
+    ms-animation-delay: @t;
+    ms-animation-fill-mode: both;
+    ms-animation-timing-function: ease;
+    webkit-animation-delay: @t;
+    webkit-animation-fill-mode: both;
+    webkit-animation-timing-function: ease;
+}
+
+.animated {
+    @delay-time: 0.2s;
+    &.delay-0  {.animate-delay(0);}
+    &.delay-1  {.animate-delay(@delay-time*1);}
+    &.delay-2  {.animate-delay(@delay-time*2);}
+    &.delay-3  {.animate-delay(@delay-time*3);}
+    &.delay-4  {.animate-delay(@delay-time*4);}
+    &.delay-5  {.animate-delay(@delay-time*5);}
+    &.delay-6  {.animate-delay(@delay-time*6);}
+    &.delay-7  {.animate-delay(@delay-time*7);}
+    &.delay-8  {.animate-delay(@delay-time*8);}
+    &.delay-9  {.animate-delay(@delay-time*9);}
+    &.delay-10 {.animate-delay(@delay-time*10);}
+}
