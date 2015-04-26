@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidsonalencar/animate-delay.css.git"
+    "url": "https://github.com/dalencar/animate-delay.css.git"
   },
   "dependencies": {
     "animate.css": "~3.2.5"
